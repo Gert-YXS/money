@@ -1,0 +1,242 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#wrap{
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+	margin: auto;
+	overflow: hidden;
+}
+#page1{
+	width: 100%;
+	height: 100%;
+	background: url(../img/prepareBg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+	display: none;
+}
+#text-move .text1{
+	margin-top: 0.8rem;
+	width: 60%;
+	height: 1.5rem;
+}
+#text-move .text2{
+	margin-top: -0.3rem;
+	width: 60%;
+	height: 2rem;
+}
+/*开始按钮*/
+#start{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 2.2rem;
+	height: 2.2rem;
+	background: url(../img/button/start.png);
+	background-size: 100% 100%;
+	animation-iteration-count:infinite;
+	bottom: 2rem;
+	z-index: 1000;
+}
+.grxx{
+	width: 80%;
+	height:50%;
+	position: absolute;
+	top: 2rem;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	background: url(../img/grxx.png);
+	background-size: 100% 100%;
+	text-align: center;
+	z-index: 1000;
+	display: none;
+}
+.grxx>img{
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+.user{
+    margin-top: 2rem;
+}
+.tel{
+	margin-top: 0.2rem;
+}
+.grxx input{
+	display: inline-block;
+    height: 0.5rem;
+    width: 80%;
+    border: 2px solid #e33145;
+    border-radius: 10px;
+    padding-left: 2%;
+    font-size: 16px;
+    color: black;
+    background: #f2bb00;
+    outline: none;
+}
+.grxx .submit{
+	margin-top: 0.5rem;
+	width: 50%;
+	height: 50px;
+	background: #D7001E;
+	color: white;
+}
+
+
+
+/*手势*/
+#shoushi{
+	position: absolute;
+	bottom: 2rem;
+	right: 1.5rem;
+	width: 1rem;
+	height: 0.8rem;
+	background: url(../img/shoushi.png);
+	background-size: 100% 100%;
+	animation-iteration-count:infinite;
+	animation-duration: 3s;
+}
+/*开始页底部按钮*/
+#page1 #btn{
+	position: absolute;
+	height: 1.2rem;
+	width: 90%;
+	background: url(../img/btnBg.png);
+	background-size: 100% 100%;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	bottom: 10px;
+}
+#btn span{
+	display: inline-block;
+	position: relative;
+	z-index: 1000;
+	width: 1.2rem;
+	height: 1rem;
+	margin-top: 0.05rem;
+}
+#btn .sqb{
+	background: url(../img/button/sqb.png);
+	background-size: 100% 100%;
+}
+
+#btn .hdgz{
+	background: url(../img/button/hdgz.png);
+	background-size: 100% 100%;
+}
+#btn .hdjp{
+	background: url(../img/button/hdjp.png);
+	background-size: 100% 100%;
+}
+#btn .sysm{
+	background: url(../img/button/sysm.png);
+	background-size: 100% 100%;
+}
+
+
+
+/*遮罩*/
+.shade{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: .8;
+	display: none;
+}
+/*底部点击显示*/
+#ball{
+	width: 80%;
+	height: 50%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+}
+#ball>span{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border:1px solid black;
+	overflow: auto;
+	background: #ffead1;
+	border: 2px solid #e33145;
+	border-radius: 10px;
+	display: none;
+}
+#ball .ball-sqb{
+	background: url(../img/shuqianbang.png);
+	background-size: 100% 100%;
+	text-align: center;
+}
+/*点击显示内容*/
+#ball ul{
+	display: inline-block;
+	width: 80%;
+	height: 80%;
+	overflow: scroll;
+	margin-top: 1rem;
+
+}
+#ball ul li{
+	width: 100%;
+	border-bottom: 1px dashed #515151;
+	text-align: left;
+}
+.ball-sqb ul li img:nth-child(1){
+	width: 0.3rem;
+	height: 0.4rem;
+	float: left;
+	margin-top: 0.1rem;
+}
+.ball-sqb ul li img:nth-child(2){
+	width: 0.7rem;
+	height: 0.6rem;
+	margin-left: 0.2rem;
+}
+.sqb-text{
+	display: inline-block;
+	position: relative;
+	top: -0.2rem;
+	font-size: 0.25rem;
+}
+.sqb-text span:nth-child(2){
+	position: relative;
+	left: 0.5rem;
+}
+
+
+h2{
+	font-size: 0.4rem;
+}
+#ball p{
+	padding: 20px;
+	text-align: left;
+}
+
+
+/*关闭按钮*/
+#ball>span>img{
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+
+
+
+
+
+

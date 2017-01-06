@@ -1,0 +1,113 @@
+#page2{
+	width: 100%;
+	height: 100%;
+	background: url(../img/startbg.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+	display: block;
+}
+#title{
+	width: 80%;
+	height: 2rem;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	top: 1.5rem;
+	background: url(../img/wrapxx.png);
+	background-size: 100% 100%;
+	text-align: center;
+}
+#title img{
+	width: 80%;
+	height: 70%;
+	position: relative;
+	top:5%;
+}
+#time{
+	display: inline-block;
+	width: 60%;
+	height: 50px;
+	margin-top: 4rem;
+	z-index: 1000;
+	position: relative;
+}
+#time span{
+	display: inline-block;
+	background: url(../img/iconbg.png);
+	width: 20%;
+	height: 50px;
+	background-size: 100% 100%;
+	color: white;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 50px;
+}
+#time .time-icon{
+	background: url(../img/time.png);
+	background-size: 100% 100%;
+	width: 22%;
+	color: #bf986b;
+}
+
+
+#move-money{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 60%;
+	height: 5.5rem;
+	z-index: 10;
+}
+#move-money>img{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#qian{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 2rem;
+	background: url("../img/qian.png");
+	background-size: 100% 100%;
+	z-index: 100;
+}
+
+.page2-shoushi{
+	width: 1.5rem;
+	height: 1rem;
+	position: absolute;
+	bottom: 2rem;
+	right: 1rem;
+	animation-iteration-count: infinite;
+	z-index: 1001;
+}
+.Move-money{
+	animation-name: money;/*动画名称*/
+	animation-duration: 1s;/*动画持续时间*/
+	animation-timing-function: ease-out;/*动画曲线*/
+	animation-direction: alternate;/*动画执行方向 alternate*/
+	animation-iteration-count: 1;/*动画执行次数  infinite循环执行*/
+}
+@keyframes money{		
+	0%{		
+		transform:translate(0) scale(1,1);
+		opacity: 1;
+	}
+	30%{
+		opacity: 1;
+	}
+	100%{
+		transform:translate(0px,-15rem) scale(0.3,0.3);
+		opacity: 0;
+	}
+				
+}
+
