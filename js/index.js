@@ -31,7 +31,7 @@ $(document).ready(function() {
 			$(".grxx").css("display","none");
 		});
 
-		$(".submit").on("tap",function(){
+		$(".button").on("tap",function(){
 			$("#page1").css("display","none");
 			$("#page2").css("display","block");
 			$("#page3").css("display","noen");
