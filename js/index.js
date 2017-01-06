@@ -32,7 +32,7 @@ $(document).ready(function() {
 		});
 
 		$(".submit").on("tap",function(){
-			$("#page1").css("display","noen");
+			$("#page1").css("display","none");
 			$("#page2").css("display","block");
 			$("#page3").css("display","noen");
 		})
