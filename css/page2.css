@@ -96,7 +96,7 @@
 	-webkit-animation-direction: alternate;/*动画执行方向 alternate*/
 	-webkit-animation-iteration-count: 1;/*动画执行次数  infinite循环执行*/
 }
-@keyframes money{		
+@-webkit-keyframes money{		
 	0%{		
 		transform:translate(0) scale(1,1);
 		opacity: 1;
