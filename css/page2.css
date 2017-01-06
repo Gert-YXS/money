@@ -86,15 +86,15 @@
 	position: absolute;
 	bottom: 2rem;
 	right: 1rem;
-	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
 	z-index: 1001;
 }
 .Move-money{
-	animation-name: money;/*动画名称*/
-	animation-duration: 1s;/*动画持续时间*/
-	animation-timing-function: ease-out;/*动画曲线*/
-	animation-direction: alternate;/*动画执行方向 alternate*/
-	animation-iteration-count: 1;/*动画执行次数  infinite循环执行*/
+	-webkit-animation-name: money;/*动画名称*/
+	-webkit-animation-duration: 1s;/*动画持续时间*/
+	-webkit-animation-timing-function: ease-out;/*动画曲线*/
+	-webkit-animation-direction: alternate;/*动画执行方向 alternate*/
+	-webkit-animation-iteration-count: 1;/*动画执行次数  infinite循环执行*/
 }
 @keyframes money{		
 	0%{		

@@ -40,7 +40,7 @@ html,body{
 	height: 2.2rem;
 	background: url(../img/button/start.png);
 	background-size: 100% 100%;
-	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
 	bottom: 2rem;
 	z-index: 1000;
 }
@@ -100,8 +100,8 @@ html,body{
 	height: 0.8rem;
 	background: url(../img/shoushi.png);
 	background-size: 100% 100%;
-	animation-iteration-count:infinite;
-	animation-duration: 3s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-duration: 3s;
 }
 /*开始页底部按钮*/
 #page1 #btn{
